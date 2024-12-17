@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Akeeb Mustapha - Portfolio</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Times new roman;
+        }
+
+        body {
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        header nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        header nav ul li {
+            margin-left: 20px;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1em;
+        }
+
+        /* Hero Section */
+        #hero {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        #hero h1 {
+            font-size: 1.8em;
+        }
+
+        #hero p {
+            margin: 10px 0;
+            font-size: 0.8em;
+        }
+
+        .btn {
+            background-color: #ff9800;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+        /* Sections */
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #007bff;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        /* Services Section */
+        .services-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .service-box {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .service-box:hover {
+            transform: translateY(-5px);
+        }
+
+        .service-box h3 {
+            margin-bottom: 10px;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .service-box p {
+            margin-bottom: 15px;
+            font-size: 1em;
+        }
+
+        .service-box button {
+            background-color: #ff9800;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .service-box button:hover {
+            background-color: #e68900;
+        }
+
+        /* Contact Form */
+        .contact-form table {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 500px;
+            border-spacing: 15px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        .contact-form button {
+            margin-top: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Career developer</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1>Hello<br>My name is<br> Al Akeeb Mustapha</h1>
+        <p>Career Developer & Business Growth Specialist with Several Years of Experience</p>
+        <a href="#services" class="btn">Explore My Services</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am Al Akeeb Mustapha, a seasoned career developer and business growth professional with several years of experience.<br>I specialize in helping individuals and organizations unlock their potential by fostering strategic career development and implementing innovative growth strategies. My expertise lies in identifying opportunities for personal and business advancement, streamlining operations, and driving sustainable success. With a proven track record of empowering individuals and organizations, I am committed to creating impactful solutions that lead to measurable results in competitive markets.
+
+
+        </p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>My Services</h2>
+        <div class="services-container">
+            <div class="service-box">
+                <h3>Resume Writing</h3>
+                <p>Professional resumes tailored to land your dream job.</p>
+                <button onclick="ameenmujahid45@gmail.com">Order Now</button>
+            </div>
+            <div class="service-box">
+                <h3>Career Coaching</h3>
+                <p>One-on-one coaching to advance your career goals.</p>
+                <button onclick="ameenmujahid45@gmail.com">Order Now</button>
+            </div>
+            <div class="service-box">
+                <h3>Business Growth Strategy</h3>
+                <p>Strategic plans to grow and scale your business effectively.</p>
+                <button onclick="ameenmujahid45@gmail.com">Order Now</button>
+            </div>
+        <div class="service-box">
+                <h3>Linkedin Optimization</h3>
+                <p>Optimize your Linkedin Profile to meets what recruiter are sourcing for.</p>
+                <button onclick="ameenmujahid45@gmial.com">Order Now</button>
+            </div>
+            <div class="service-box">
+                <h3>Professional Development</h3>
+                <p>Customized programs to enhance skills, boost productivity, and position individuals for career advancement in competitive industries.</p>
+                <button onclick="wa.me/+2348166930407">Order Now</button>
+            </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <table>
+                <tr>
+                    <td><input type="text" placeholder="Your Name" required></td>
+                </tr>
+                    <td><input type="email" placeholder="Your Email" required></td>
+                </tr>
+                <tr>
+                    <td><textarea rows="5" placeholder="Your Message"></textarea></td>
+                </tr>
+         
+                    <td><button type="submit">Send Message</button></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; This website was created by Ameemdah Global Consult | All Rights Reserved</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function orderService(serviceName) {
+            alert(`Kindly fill in the form below. I will contact you shortly.`);
+        }
+    </script>
+</body>
+</html>
